@@ -1,0 +1,120 @@
+.bg-primary {
+  width: 60%;
+  position: relative;
+  margin-left: 25%;
+  border-radius: 20px;
+  background: linear-gradient(300deg, #00bfff94, #06b228, #1804af);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-body-tertiary {
+  width: 100%;
+  border-radius: 45px;
+  position: relative;
+  margin-left: 1px;
+}
+.navbar-brand {
+  border-radius: 45px;
+  font-size: 25px;
+}
+.navbar-brand:hover {
+  background-color: rgb(60, 60, 61);
+}
+.nav-link {
+  border: 1px solid;
+  border-radius: 45px;
+}
+.nav-link:hover {
+  background-color: rgba(62, 237, 112, 0.361);
+}
+.about {
+  height: 500px;
+  width: 60%;
+  background-color: rgb(80, 80, 235);
+  border: 1px solid;
+  border-radius: 45px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 25%;
+  display: flex;
+  background: linear-gradient(300deg, #0480a9fb, #019e4af1, #110286);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.kgl-events {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+}
+p {
+  color: aliceblue;
+  font-size: 250%;
+  text-align: center;
+}
+.contain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1px;
+  row-gap: 1px;
+  background: linear-gradient(300deg, #2b3236fb, #204b26f1, #1c3545);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.col {
+  height: 120px;
+  border: 1px solid white;
+  color: white;
+}
+.mon {
+  height: 60px;
+  width: 65px;
+}
+.wed {
+  height: 60px;
+  width: 65px;
+}
+a:hover {
+  box-shadow: 10px 10px 30px rgb(0, 229, 255);
+  background-color: rgba(62, 237, 112, 0.361);
+  border: 1px solid white;
+  border-radius: 45px;
+  color: whitesmoke;
+}
