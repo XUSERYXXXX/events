@@ -118,3 +118,19 @@ a:hover {
   border-radius: 45px;
   color: whitesmoke;
 }
+@media screen and (min-width: 345px) {
+  .col {
+    width: 80x;
+    height: 110px;
+  }
+  .about {
+    width: 70%;
+  }
+  .bg-primary {
+    width: 70%;
+  }
+  a {
+    font-size: 15px;
+  }
+}
+
